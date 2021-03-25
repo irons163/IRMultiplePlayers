@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "TableViewController.h"
+#import "CollectionViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -45,7 +46,7 @@
             vc = [TableViewController new];
             break;
         case 1:
-            
+            vc = [CollectionViewController new];
             break;
         default:
             break;

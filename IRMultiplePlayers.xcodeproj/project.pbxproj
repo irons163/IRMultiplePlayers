@@ -25,6 +25,11 @@
 		B5F91BC9260C3AC100990563 /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC6260C3AC000990563 /* i-see-fire.mp4 */; };
 		B5F91BCA260C3AC100990563 /* fisheye-demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC7260C3AC100990563 /* fisheye-demo.mp4 */; };
 		B5F91BCB260C3AC100990563 /* google-help-vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC8260C3AC100990563 /* google-help-vr.mp4 */; };
+		B5F91BD8260C957900990563 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BD6260C957900990563 /* CollectionViewController.m */; };
+		B5F91BD9260C957900990563 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BD7260C957900990563 /* CollectionViewController.xib */; };
+		B5F91BDD260C95CB00990563 /* CollectionViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BDC260C95CB00990563 /* CollectionViewViewModel.m */; };
+		B5F91BE4260C981200990563 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BE2260C981200990563 /* CollectionViewCell.m */; };
+		B5F91BE5260C981200990563 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BE3260C981200990563 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +63,15 @@
 		B5F91BC6260C3AC000990563 /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
 		B5F91BC7260C3AC100990563 /* fisheye-demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fisheye-demo.mp4"; sourceTree = "<group>"; };
 		B5F91BC8260C3AC100990563 /* google-help-vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "google-help-vr.mp4"; sourceTree = "<group>"; };
+		B5F91BD5260C957900990563 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		B5F91BD6260C957900990563 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		B5F91BD7260C957900990563 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		B5F91BDB260C95CB00990563 /* CollectionViewViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewViewModel.h; sourceTree = "<group>"; };
+		B5F91BDC260C95CB00990563 /* CollectionViewViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewViewModel.m; sourceTree = "<group>"; };
+		B5F91BDF260C964900990563 /* CollectionViewSectionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewSectionType.h; sourceTree = "<group>"; };
+		B5F91BE1260C981200990563 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		B5F91BE2260C981200990563 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		B5F91BE3260C981200990563 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +190,33 @@
 		B5F91BD2260C941600990563 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B5F91BD4260C955400990563 /* View */,
+				B5F91BD3260C954E00990563 /* Model */,
+				B5F91BD5260C957900990563 /* CollectionViewController.h */,
+				B5F91BD6260C957900990563 /* CollectionViewController.m */,
+				B5F91BD7260C957900990563 /* CollectionViewController.xib */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		B5F91BD3260C954E00990563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91BDB260C95CB00990563 /* CollectionViewViewModel.h */,
+				B5F91BDC260C95CB00990563 /* CollectionViewViewModel.m */,
+				B5F91BDF260C964900990563 /* CollectionViewSectionType.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5F91BD4260C955400990563 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91BE1260C981200990563 /* CollectionViewCell.h */,
+				B5F91BE2260C981200990563 /* CollectionViewCell.m */,
+				B5F91BE3260C981200990563 /* CollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +279,12 @@
 			files = (
 				B5F91B97260C355E00990563 /* LaunchScreen.storyboard in Resources */,
 				B5F91BC4260C385D00990563 /* TableViewCell.xib in Resources */,
+				B5F91BE5260C981200990563 /* CollectionViewCell.xib in Resources */,
 				B5F91B94260C355E00990563 /* Assets.xcassets in Resources */,
 				B5F91B92260C355C00990563 /* Main.storyboard in Resources */,
 				B5F91BB1260C377D00990563 /* TableViewController.xib in Resources */,
 				B5F91BC9260C3AC100990563 /* i-see-fire.mp4 in Resources */,
+				B5F91BD9260C957900990563 /* CollectionViewController.xib in Resources */,
 				B5F91BCA260C3AC100990563 /* fisheye-demo.mp4 in Resources */,
 				B5F91BCB260C3AC100990563 /* google-help-vr.mp4 in Resources */,
 				B5F91BBE260C384000990563 /* TableViewHeaderView.xib in Resources */,
@@ -300,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F91BBD260C384000990563 /* TableViewHeaderView.m in Sources */,
+				B5F91BDD260C95CB00990563 /* CollectionViewViewModel.m in Sources */,
 				B5F91B8F260C355C00990563 /* ViewController.m in Sources */,
 				B5F91B89260C355C00990563 /* AppDelegate.m in Sources */,
 				B5F91BB7260C37BE00990563 /* TableViewViewModel.m in Sources */,
@@ -307,6 +349,8 @@
 				B5F91BC3260C385D00990563 /* TableViewCell.m in Sources */,
 				B5F91BB0260C377D00990563 /* TableViewController.m in Sources */,
 				B5F91B8C260C355C00990563 /* SceneDelegate.m in Sources */,
+				B5F91BE4260C981200990563 /* CollectionViewCell.m in Sources */,
+				B5F91BD8260C957900990563 /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
