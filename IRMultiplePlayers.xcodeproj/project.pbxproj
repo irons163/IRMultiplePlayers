@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EF728DBD6C0825826F3F519 /* Pods_IRMultiplePlayers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4BBC1C85EEBD30FCC365CA /* Pods_IRMultiplePlayers.framework */; };
 		B5F91B89260C355C00990563 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91B88260C355C00990563 /* AppDelegate.m */; };
 		B5F91B8C260C355C00990563 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91B8B260C355C00990563 /* SceneDelegate.m */; };
 		B5F91B8F260C355C00990563 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91B8E260C355C00990563 /* ViewController.m */; };
@@ -14,9 +15,22 @@
 		B5F91B94260C355E00990563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F91B93260C355E00990563 /* Assets.xcassets */; };
 		B5F91B97260C355E00990563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F91B95260C355E00990563 /* LaunchScreen.storyboard */; };
 		B5F91B9A260C355E00990563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91B99260C355E00990563 /* main.m */; };
+		B5F91BB0260C377D00990563 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BAE260C377D00990563 /* TableViewController.m */; };
+		B5F91BB1260C377D00990563 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BAF260C377D00990563 /* TableViewController.xib */; };
+		B5F91BB7260C37BE00990563 /* TableViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BB6260C37BE00990563 /* TableViewViewModel.m */; };
+		B5F91BBD260C384000990563 /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BBB260C384000990563 /* TableViewHeaderView.m */; };
+		B5F91BBE260C384000990563 /* TableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BBC260C384000990563 /* TableViewHeaderView.xib */; };
+		B5F91BC3260C385D00990563 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91BC1260C385D00990563 /* TableViewCell.m */; };
+		B5F91BC4260C385D00990563 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC2260C385D00990563 /* TableViewCell.xib */; };
+		B5F91BC9260C3AC100990563 /* i-see-fire.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC6260C3AC000990563 /* i-see-fire.mp4 */; };
+		B5F91BCA260C3AC100990563 /* fisheye-demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC7260C3AC100990563 /* fisheye-demo.mp4 */; };
+		B5F91BCB260C3AC100990563 /* google-help-vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B5F91BC8260C3AC100990563 /* google-help-vr.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A2720760C173E0B527D45FD /* Pods-IRMultiplePlayers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMultiplePlayers.debug.xcconfig"; path = "Target Support Files/Pods-IRMultiplePlayers/Pods-IRMultiplePlayers.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9E948A686466C51A7B00C8 /* Pods-IRMultiplePlayers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMultiplePlayers.release.xcconfig"; path = "Target Support Files/Pods-IRMultiplePlayers/Pods-IRMultiplePlayers.release.xcconfig"; sourceTree = "<group>"; };
+		8F4BBC1C85EEBD30FCC365CA /* Pods_IRMultiplePlayers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRMultiplePlayers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F91B84260C355C00990563 /* IRMultiplePlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRMultiplePlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F91B87260C355C00990563 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5F91B88260C355C00990563 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +43,21 @@
 		B5F91B96260C355E00990563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5F91B98260C355E00990563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5F91B99260C355E00990563 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F91BAD260C377D00990563 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B5F91BAE260C377D00990563 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		B5F91BAF260C377D00990563 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		B5F91BB5260C37BE00990563 /* TableViewViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewViewModel.h; sourceTree = "<group>"; };
+		B5F91BB6260C37BE00990563 /* TableViewViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewViewModel.m; sourceTree = "<group>"; };
+		B5F91BB9260C37CF00990563 /* TableViewSectionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewSectionType.h; sourceTree = "<group>"; };
+		B5F91BBA260C384000990563 /* TableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
+		B5F91BBB260C384000990563 /* TableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
+		B5F91BBC260C384000990563 /* TableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewHeaderView.xib; sourceTree = "<group>"; };
+		B5F91BC0260C385C00990563 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		B5F91BC1260C385D00990563 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		B5F91BC2260C385D00990563 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		B5F91BC6260C3AC000990563 /* i-see-fire.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-see-fire.mp4"; sourceTree = "<group>"; };
+		B5F91BC7260C3AC100990563 /* fisheye-demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fisheye-demo.mp4"; sourceTree = "<group>"; };
+		B5F91BC8260C3AC100990563 /* google-help-vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "google-help-vr.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF728DBD6C0825826F3F519 /* Pods_IRMultiplePlayers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ACEA746A26802491B110B21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A2720760C173E0B527D45FD /* Pods-IRMultiplePlayers.debug.xcconfig */,
+				4C9E948A686466C51A7B00C8 /* Pods-IRMultiplePlayers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9648F844D63B187CD46DAC11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F4BBC1C85EEBD30FCC365CA /* Pods_IRMultiplePlayers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5F91B7B260C355C00990563 = {
 			isa = PBXGroup;
 			children = (
 				B5F91B86260C355C00990563 /* IRMultiplePlayers */,
 				B5F91B85260C355C00990563 /* Products */,
+				6ACEA746A26802491B110B21 /* Pods */,
+				9648F844D63B187CD46DAC11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +110,10 @@
 		B5F91B86260C355C00990563 /* IRMultiplePlayers */ = {
 			isa = PBXGroup;
 			children = (
-				B5F91B87260C355C00990563 /* AppDelegate.h */,
-				B5F91B88260C355C00990563 /* AppDelegate.m */,
-				B5F91B8A260C355C00990563 /* SceneDelegate.h */,
-				B5F91B8B260C355C00990563 /* SceneDelegate.m */,
-				B5F91B8D260C355C00990563 /* ViewController.h */,
-				B5F91B8E260C355C00990563 /* ViewController.m */,
+				B5F91BC7260C3AC100990563 /* fisheye-demo.mp4 */,
+				B5F91BC8260C3AC100990563 /* google-help-vr.mp4 */,
+				B5F91BC6260C3AC000990563 /* i-see-fire.mp4 */,
+				B5F91BA6260C36DD00990563 /* Classes */,
 				B5F91B90260C355C00990563 /* Main.storyboard */,
 				B5F91B93260C355E00990563 /* Assets.xcassets */,
 				B5F91B95260C355E00990563 /* LaunchScreen.storyboard */,
@@ -76,6 +123,63 @@
 			path = IRMultiplePlayers;
 			sourceTree = "<group>";
 		};
+		B5F91BA6260C36DD00990563 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91BD2260C941600990563 /* CollectionView */,
+				B5F91BAC260C375A00990563 /* TableView */,
+				B5F91B87260C355C00990563 /* AppDelegate.h */,
+				B5F91B88260C355C00990563 /* AppDelegate.m */,
+				B5F91B8A260C355C00990563 /* SceneDelegate.h */,
+				B5F91B8B260C355C00990563 /* SceneDelegate.m */,
+				B5F91B8D260C355C00990563 /* ViewController.h */,
+				B5F91B8E260C355C00990563 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B5F91BAC260C375A00990563 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91BB4260C37A300990563 /* VIew */,
+				B5F91BB3260C379E00990563 /* Model */,
+				B5F91BAD260C377D00990563 /* TableViewController.h */,
+				B5F91BAE260C377D00990563 /* TableViewController.m */,
+				B5F91BAF260C377D00990563 /* TableViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B5F91BB3260C379E00990563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91BB5260C37BE00990563 /* TableViewViewModel.h */,
+				B5F91BB6260C37BE00990563 /* TableViewViewModel.m */,
+				B5F91BB9260C37CF00990563 /* TableViewSectionType.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5F91BB4260C37A300990563 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91BBA260C384000990563 /* TableViewHeaderView.h */,
+				B5F91BBB260C384000990563 /* TableViewHeaderView.m */,
+				B5F91BBC260C384000990563 /* TableViewHeaderView.xib */,
+				B5F91BC0260C385C00990563 /* TableViewCell.h */,
+				B5F91BC1260C385D00990563 /* TableViewCell.m */,
+				B5F91BC2260C385D00990563 /* TableViewCell.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		B5F91BD2260C941600990563 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5F91B9D260C355E00990563 /* Build configuration list for PBXNativeTarget "IRMultiplePlayers" */;
 			buildPhases = (
+				94A2F76CF904342A3B5E8975 /* [CP] Check Pods Manifest.lock */,
 				B5F91B80260C355C00990563 /* Sources */,
 				B5F91B81260C355C00990563 /* Frameworks */,
 				B5F91B82260C355C00990563 /* Resources */,
+				4839EDFEED3DA1E2ACD8E109 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,21 +239,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F91B97260C355E00990563 /* LaunchScreen.storyboard in Resources */,
+				B5F91BC4260C385D00990563 /* TableViewCell.xib in Resources */,
 				B5F91B94260C355E00990563 /* Assets.xcassets in Resources */,
 				B5F91B92260C355C00990563 /* Main.storyboard in Resources */,
+				B5F91BB1260C377D00990563 /* TableViewController.xib in Resources */,
+				B5F91BC9260C3AC100990563 /* i-see-fire.mp4 in Resources */,
+				B5F91BCA260C3AC100990563 /* fisheye-demo.mp4 in Resources */,
+				B5F91BCB260C3AC100990563 /* google-help-vr.mp4 in Resources */,
+				B5F91BBE260C384000990563 /* TableViewHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4839EDFEED3DA1E2ACD8E109 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayers/Pods-IRMultiplePlayers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayers/Pods-IRMultiplePlayers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayers/Pods-IRMultiplePlayers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94A2F76CF904342A3B5E8975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IRMultiplePlayers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5F91B80260C355C00990563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F91BBD260C384000990563 /* TableViewHeaderView.m in Sources */,
 				B5F91B8F260C355C00990563 /* ViewController.m in Sources */,
 				B5F91B89260C355C00990563 /* AppDelegate.m in Sources */,
+				B5F91BB7260C37BE00990563 /* TableViewViewModel.m in Sources */,
 				B5F91B9A260C355E00990563 /* main.m in Sources */,
+				B5F91BC3260C385D00990563 /* TableViewCell.m in Sources */,
+				B5F91BB0260C377D00990563 /* TableViewController.m in Sources */,
 				B5F91B8C260C355C00990563 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +446,7 @@
 		};
 		B5F91B9E260C355E00990563 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2720760C173E0B527D45FD /* Pods-IRMultiplePlayers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +465,7 @@
 		};
 		B5F91B9F260C355E00990563 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9E948A686466C51A7B00C8 /* Pods-IRMultiplePlayers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

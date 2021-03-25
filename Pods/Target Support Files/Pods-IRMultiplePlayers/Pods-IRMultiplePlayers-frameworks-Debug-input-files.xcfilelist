@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-IRMultiplePlayers/Pods-IRMultiplePlayers-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IRCollectionTableViewModel/IRCollectionTableViewModel.framework
+${BUILT_PRODUCTS_DIR}/IRFFMpeg/IRFFMpeg.framework
+${BUILT_PRODUCTS_DIR}/IRPlayer/IRPlayer.framework

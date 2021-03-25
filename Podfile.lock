@@ -1,0 +1,29 @@
+PODS:
+  - IRCollectionTableViewModel (1.0.1)
+  - IRFFMpeg (4.2.19):
+    - IRFFMpeg/FFMpegLib (= 4.2.19)
+  - IRFFMpeg/FFMpegLib (4.2.19)
+  - IRPlayer (0.3.6):
+    - IRFFMpeg
+
+DEPENDENCIES:
+  - IRCollectionTableViewModel
+  - IRPlayer (from `../IRPlayer/IRPlayer/IRPlayer_dev.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - IRCollectionTableViewModel
+    - IRFFMpeg
+
+EXTERNAL SOURCES:
+  IRPlayer:
+    :path: "../IRPlayer/IRPlayer/IRPlayer_dev.podspec"
+
+SPEC CHECKSUMS:
+  IRCollectionTableViewModel: 46af7fe12b374b004f760125147e1ca0a5c9946a
+  IRFFMpeg: 50e159994f9c7c1136b19fc1dea96b4c903b1c9c
+  IRPlayer: b675a17d0d254bc5b26ed2180d95d5212acb42d4
+
+PODFILE CHECKSUM: 0a2e1bf1ef26a55ad5ce87a668ec0ba837e23e9a
+
+COCOAPODS: 1.8.4
